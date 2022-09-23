@@ -63,6 +63,17 @@ The goal of the project was to successfully create an app that had the following
     }
 ]
 ```
+5. In AWS go to the IAM service and add a new user.  Add a policy for the user ensuring the following:
+- Select the **S3** service
+- In Actions select DeleteObject and PutObject
+- Assign the policy to your AWS S3 BUCKET Resource.  Note: use the **ARN** `arn:aws:s3:::YOUR_AWS_BUCKET_NAME` after the 3 colons enter type the name of your colon.
+
+### Continued development
+
+- [ ] Add middleware using the **multer** library for uploading images and modifying image size prior to upload.
+- [ ] Add the S3 Bucket to CDN for faster load times
+- [ ] Add socket.io and add messaging capabilities
+- [ ] Update interface and add in a dashboard, user profile section, and a place to view/send messages.
 
 ### Built with
 
