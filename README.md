@@ -26,9 +26,9 @@ The goal of the project was to successfully create an app that had the following
 
 4. Create an AWS account if you don't already have one.  Once created edit the Bucket Policies as follows:
 
-4a. For development *ONLY*.  Uncheck **Block all public access**.  In the future you will change this to only allow from the apps domain.
+- For development *ONLY*.  Uncheck **Block all public access**.  In the future you will change this to only allow from the apps domain.
 
-4b. Edit the **Bucket Policy**
+- Edit the **Bucket Policy**
 ```
 {
     "Version": "2012-10-17",
@@ -44,7 +44,7 @@ The goal of the project was to successfully create an app that had the following
     ]
 }
 ```
-4c. Edit the **Cross-origin resource sharing (CORS)** section:
+- Edit the **Cross-origin resource sharing (CORS)** section:
 ```
 [
     {
