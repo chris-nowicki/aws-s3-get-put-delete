@@ -16,13 +16,13 @@ The goal of the project was to successfully create an app that had the following
 2. Install NPM packages in *BOTH* the Client & Server directories
 3. Create a `.env` file in the **Server** directory with the following information:
 
--`ORIGIN=` Put the origin of your client ex:`http://localhost:3000`
--`PORT=` Port number your server (backend) will run on.  ex: `8000`
--`SECRETKEY=` = Secret key for the backend to use when authenticating users.
--`MONGO_URL=` URL path to your Mongo Database with the name of your database.  ex: `http://localhost/newdb`
--`AWS_KEY=` Enter the KEY of the user you create in AWS IAM
--`AWS_SECRET=` Enter the SECRET of the suer you create in AWS IAM
--`AWS_BUCKET=` Enter the name of the bucket you create in AWS S3
+- `ORIGIN=` Put the origin of your client ex:`http://localhost:3000`
+- `PORT=` Port number your server (backend) will run on.  ex: `8000`
+- `SECRETKEY=` = Secret key for the backend to use when authenticating users.
+- `MONGO_URL=` URL path to your Mongo Database with the name of your database.  ex: `http://localhost/newdb`
+- `AWS_KEY=` Enter the KEY of the user you create in AWS IAM
+- `AWS_SECRET=` Enter the SECRET of the suer you create in AWS IAM
+- `AWS_BUCKET=` Enter the name of the bucket you create in AWS S3
 
 4. Create an AWS account if you don't already have one.  Once created edit the Bucket Policies as follows:
 
